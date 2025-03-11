@@ -10,12 +10,23 @@ header{
     height: 55px;
     background-color:rgb(104, 0, 0);
     padding: 32px;
-    color: rgb(255, 255, 255);
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-color: rgb(255,255,255);
 }
 
+
+.menu-link a {
+    color: rgb(1, 138, 102); /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    margin: 0 160px; /* Espaçamento entre os links */
+    transition: color 0.3s ease; /* Transição suave para o hover */
+}
+
+.menu-link a:hover {
+    color: #a3e800; /* Cor ao passar o mouse (amarelo) */
+    text-decoration: underline; /* Adiciona sublinhado */
+    
+}
 
 
 
